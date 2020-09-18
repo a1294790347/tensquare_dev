@@ -1,5 +1,5 @@
 server:
-  port: 1440
+  port: 1126
 spring:
   application:
     name: tensquare-base
