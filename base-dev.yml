@@ -4,7 +4,7 @@ spring:
   application:
     name: tensquare-base
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/tensquare_base?characterEncoding=UTF8
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_base?useUnicode=true&amp;characterEncoding=UTF8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -20,4 +20,4 @@ eureka:
   ##不走线上服务器之间可以正常访问
   instance:
     prefer-ip-address: true
-ip: 192.168.55.255
+ip: 127.0.0.1
