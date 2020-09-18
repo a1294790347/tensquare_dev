@@ -1,0 +1,20 @@
+server:
+  port: 1126
+spring:
+  application:
+    name: tensquare-base
+  datasource:
+    url: jdbc:mysql://192.168.50.128:3306/tensquare_base?characterEncoding=UTF8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: MySQL
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1212/eureka/
+  ##不走线上服务器之间可以正常访问
+  instance:
+    prefer-ip-address: true
