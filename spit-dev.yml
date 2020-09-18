@@ -1,0 +1,11 @@
+server:
+  port: 1131
+spring:
+  application:
+    name: tensquare-spit
+  data:
+    mongodb:
+      host: 192.168.50.128
+      database: spit
+  redis:
+    host: 192.168.50.128
