@@ -20,3 +20,4 @@ eureka:
   ##不走线上服务器之间可以正常访问
   instance:
     prefer-ip-address: true
+ip: 192.168.175.134
